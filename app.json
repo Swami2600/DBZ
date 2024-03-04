@@ -17,9 +17,6 @@
       "url": "heroku/python"
     }
   ],
-  "scripts": {
-    "postdeploy": "python setup.py"
-  },
   "formation": {
     "web": {
       "quantity": 1,
