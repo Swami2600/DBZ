@@ -1,0 +1,29 @@
+{
+  "name": "dragon-ball-z-telegram-bot",
+  "description": "A Telegram bot based on the Dragon Ball Z theme.",
+  "repository": "https://github.com/Swami2600/DBZ-telegram-",
+  "keywords": ["telegram", "bot", "dragon-ball-z"],
+  "addons": [],
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "Telegram bot token obtained from BotFather.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python",
+      "name": "python"
+    }
+  ],
+  "stack": "heroku-20",
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "scripts": {
+    "postdeploy": "python setup.py install"
+  }
+}
