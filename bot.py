@@ -2,7 +2,7 @@
 
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, CallbackContext
 from start import start
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 import logging
 
 # Enable logging
