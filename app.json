@@ -22,8 +22,3 @@
       "quantity": 1,
       "size": "basic"
     }
-  },
-  "scripts": {
-    "postdeploy": "python setup.py install"
-  }
-}
