@@ -1,0 +1,29 @@
+{
+  "name": "dragon-ball-z-telegram-bot",
+  "description": "Dragon Ball Z Telegram Game Bot",
+  "repository": "https://github.com/Swami2600/DBZ",
+  "logo": "https://example.com/logo.png",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "scripts": {
+    "postdeploy": "python setup.py"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
