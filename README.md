@@ -46,3 +46,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Support
 For questions, issues, or feedback related to the Dragon Ball Z Telegram Game Bot, please contact [email@example.com](mailto:email@example.com).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Swami2600/DBZ)
