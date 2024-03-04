@@ -16,11 +16,11 @@
       "name": "python"
     }
   ],
-  "stack": "heroku-20",
+  "stack": "heroku-2,2",
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "basic"
     }
   },
   "scripts": {
