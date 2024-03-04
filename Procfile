@@ -1,1 +1,1 @@
-worker: python bot.py
+Eco: python bot.py
