@@ -1,7 +1,7 @@
 # bot.py or main.py
 
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
-from start_logic import start
+from start import start
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 import logging
 
