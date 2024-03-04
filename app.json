@@ -16,7 +16,7 @@
       "name": "python"
     }
   ],
-  "stack": "heroku-2,2",
+  "stack": "heroku-22",
   "formation": {
     "worker": {
       "quantity": 1,
